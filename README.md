@@ -1,4 +1,4 @@
-# Guess My Number (1 - 10) as a NEAR contract
+# Gift a Coffe as a NEAR contract
 
 ## Install dependencies
 
