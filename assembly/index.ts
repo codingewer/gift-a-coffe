@@ -1,4 +1,6 @@
-import { Coffe} from "./model";
+import { Coffe} from "./model"; // import coffe structure in the model file 
+
+//functions to call processes
 export function create(message: string): Coffe {
     return Coffe.insert(message);
 }
@@ -11,10 +13,10 @@ export function getById(id: u32): Coffe {
     return Coffe.findById(id);
 }
 
-export function get(offset: u32, limit: u32): Coffe[] {
-    return Coffe.find(offset, limit);
+export function get(offset: u32, limit: u32): Coffe[]  { // the value it should return
+    return Coffe.find(offset, limit); // return Coffe[]
 }
 
 export function del(id: u32): void {
-    Coffe.deleteById(id);
+    Coffe.deleteById(id); //returns nothing here
 }
