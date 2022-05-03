@@ -1,6 +1,6 @@
-# Gift a Coffe as a NEAR contract
+# Gift a Coffe as a NEAR contract ☕
 
-## Install dependencies
+## Install dependencies 
 
 ```
 yarn
