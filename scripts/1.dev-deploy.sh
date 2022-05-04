@@ -26,7 +26,7 @@ echo --------------------------------------------
 echo
 echo "redeploying the contract"
 echo
-near dev-deploy ./out/main.wasm
+near dev-deploy ./build/release/gift-a-coffe.wasm
 
 echo --------------------------------------------
 echo run the following commands
