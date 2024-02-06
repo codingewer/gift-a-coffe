@@ -21,7 +21,7 @@ The first step is to create a coffee request.
 In the second step, the user with the smart contract sends the desired amount of money with the id of the coffee request.
 
 
-## Run the game
+## Run the App
 
 **Create a coffe**
 
